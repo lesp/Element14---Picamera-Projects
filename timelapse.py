@@ -8,7 +8,7 @@ try:
             camera.start_preview()
             time.sleep(2)
             camera.capture(str(i)+(".jpg"))
-            i = i + 1
+            i += 1
             time.sleep(3)
 except KeyboardInterrupt:
     print("Exiting")
